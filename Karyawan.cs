@@ -1,4 +1,8 @@
-using System;
+using.System;
+using.System.Collections.Generic;
+using.System.Linq;
+using.System.Text;
+using.System.Threading.Tasks;
 
 namespace ResponsiPemrograman2604
 {
@@ -6,7 +10,6 @@ namespace ResponsiPemrograman2604
     {
         static void Main(string[] args)
         {
-
             Karyawan karyawan = new Karyawan(19112626, "Ali", 400000);
             Karyawan karyawan2 = new Karyawan(19112622, "Saputa", 300000);
             Karyawan karyawan3 = new Karyawan (19112600, "Doni", 500000);
@@ -47,11 +50,9 @@ namespace ResponsiPemrograman2604
             {
                 this.gajiBulanan = gaji;
             }
-
             double tmp = 0;
             tmp = 0.1 * gajiBulanan;
             naikGaji = Convert.ToInt32(tmp) + gajiBulanan;
         }
-
     }
 }
